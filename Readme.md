@@ -20,7 +20,6 @@ Known issues:
 * The item is temporarily removed from the inventory
   * Can't be circumvented because else `get_wield_item` would return item that is being switched to
   * Accordingly, it can't be seen
-* 
 
 ## Screenshot
 
