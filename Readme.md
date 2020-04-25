@@ -4,7 +4,7 @@ Makes switching between inventory slots take time.
 
 ## About
 
-Cycle Limit only depends on [`modlib`](https://github.com/appgurueu/cellestial/modlib). Code by Lars Mueller aka LMD or appguru(eu) and licensed under the MIT license.
+Cycle Limit only depends on [`modlib`](https://github.com/appgurueu/modlib). Code by Lars Mueller aka LMD or appguru(eu) and licensed under the MIT license.
 
 Part of the Limit Series: [`item_limit`](https://github.com/appgurueu/item_limit), [`place_limit`](https://github.com/appgurueu/place_limit) and [`cycle_limit`](https://github.com/appgurueu/cycle_limit)
 
