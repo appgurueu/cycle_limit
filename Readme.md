@@ -31,7 +31,7 @@ Known issues:
 * [GitHub](https://github.com/appgurueu/cycle_limit)
 * [Discord](https://discordapp.com/invite/ysP74by)
 * [ContentDB](https://content.minetest.net/packages/LMD/cycle_limit)
-* [Minetest Forum](https://example.com/to_be_created)
+* [Minetest Forum](https://forum.minetest.net/viewtopic.php?f=9&t=24614)
 
 ## Configuration
 
