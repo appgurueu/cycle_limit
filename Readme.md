@@ -14,6 +14,9 @@ Part of the Limit Series: [`item_limit`](https://github.com/appgurueu/item_limit
 * A bar appears showing you the time left, and after it's over (or if you switch again) the hidden items reappear
 * During switching you can only use your hand
 * Hidden items are not lost if the server crashes
+* `cycle_limit` priv allows evasion
+* Alternative mode works by granting/removing `interact`
+  * To prevent players from having interact, revoke both `interact` and `interact_mods`
 
 Known issues:
 
@@ -42,10 +45,12 @@ Default configuration:
 {
     "name": "Switching",
     "duration": 2,
-    "color": "545AA7"
+    "color": "545AA7",
+    "interact": false
 }
 ```
 
 * `name` is the timer name
 * `duration` is the time it takes to switch in seconds
 * `color` is a hex color (but without `#`)
+* `interact` is a boolean indicating whether the `interact` privilege should be revoked
