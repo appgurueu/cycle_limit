@@ -46,7 +46,7 @@ Default configuration:
     "name": "Switching",
     "duration": 2,
     "color": "545AA7",
-    "interact": false
+    "interact": true
 }
 ```
 
