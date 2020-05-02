@@ -21,7 +21,6 @@ minetest.register_privilege("cycle_limit", {
 local interact = config.interact
 
 if interact then
-    minetest.registered_privileges.interact.give_to_singleplayer = false
     minetest.register_privilege("interact_mods", {
         description = "Can be granted interact by mods",
         give_to_singleplayer = true,
