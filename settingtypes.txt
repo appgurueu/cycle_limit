@@ -1,0 +1,4 @@
+cycle_limit.interact (Cycle limit interact) bool true
+cycle_limit.duration (Cycle limit duration) float 2 0.000000 1073741824.000000
+cycle_limit.name (Cycle limit name) string Switching
+cycle_limit.color (Cycle limit color) string 545AA7
