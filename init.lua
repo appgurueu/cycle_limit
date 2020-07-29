@@ -1,1 +1,1 @@
-modlib.mod.init("cycle_limit")
+modlib.mod.init()
