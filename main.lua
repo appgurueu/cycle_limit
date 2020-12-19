@@ -35,7 +35,6 @@ if interact then
         local privs = minetest.get_player_privs(name)
         privs.interact = value or nil
         minetest.set_player_privs(name, privs)
-        privs = minetest.get_player_privs(name)
     end
 end
 
