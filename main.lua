@@ -1,16 +1,4 @@
-config = modlib.conf.import("cycle_limit", {
-    type = "table",
-    children = {
-        name = {type = "string"},
-        duration = {type = "number", range = {0}},
-        color = {type = "string", func = function(num)
-            if not tonumber(num, 16) then
-                return "Expected hex color"
-            end
-        end},
-        interact = {type = "boolean"}
-    }
-})
+config = modlib.mod.configuration()
 
 minetest.register_privilege("cycle_limit", {
     description = "Not affected by cycle limit",

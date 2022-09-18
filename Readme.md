@@ -37,20 +37,33 @@ Known issues:
 
 ## Configuration
 
-Configuration can be found under `<worldpath>/conf/cycle_limit.json`.
+<!--modlib:conf:2-->
+### `color`
 
-Default configuration:
+Hexadecimal RRGGBB color (without a leading `#`)
 
-```json
-{
-    "name": "Switching",
-    "duration": 2,
-    "color": "545AA7",
-    "interact": true
-}
-```
+* Type: string
+* Default: `545AA7`
 
-* `name` is the timer name
-* `duration` is the time it takes to switch in seconds
-* `color` is a hex color (but without `#`)
-* `interact` is a boolean indicating whether the `interact` privilege should be revoked
+### `duration`
+
+Time it takes to switch slots in seconds
+
+* Type: number
+* Default: `2`
+* &gt;= `0`
+
+### `interact`
+
+Whether the `interact` privilege should be revoked temporarily
+
+* Type: boolean
+* Default: `true`
+
+### `name`
+
+Timer text
+
+* Type: string
+* Default: `Switching`
+<!--modlib:conf-->

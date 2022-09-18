@@ -1,4 +1,11 @@
-cycle_limit.interact (Cycle limit interact) bool true
-cycle_limit.duration (Cycle limit duration) float 2 0.000000 1073741824.000000
-cycle_limit.name (Cycle limit name) string Switching
-cycle_limit.color (Cycle limit color) string 545AA7
+# Hexadecimal RRGGBB color (without a leading `#`)
+cycle_limit.color (Cycle limit Color) string 545AA7
+
+# Time it takes to switch slots in seconds
+cycle_limit.duration (Cycle limit Duration) float 2 0.000000 1073741824.000000
+
+# Whether the `interact` privilege should be revoked temporarily
+cycle_limit.interact (Cycle limit Interact) bool true
+
+# Timer text
+cycle_limit.name (Cycle limit Name) string Switching
